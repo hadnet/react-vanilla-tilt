@@ -70,6 +70,7 @@ import Title from 'react-vanilla-tilt'
   Thanks to
 - [vanilla-tilt.js](https://github.com/micku7zu/vanilla-tilt.js) by [@micku7zu](https://github.com/micku7zu)
 - [tilt.js](https://github.com/gijsroge/tilt.js) by [@gijsroge](https://github.com/gijsroge)
+- v2.0.0 by [@hadnet](https:github.com/hadnet)
 
 &nbsp;
 

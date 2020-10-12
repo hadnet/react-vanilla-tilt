@@ -1,21 +1,24 @@
 {
   "name": "react-vanilla-tilt",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "React wrapper around vanilla-tilt",
-  "main": "dist.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "babel index.js -o dist.js"
+    "build": "./node_modules/typescript/bin/tsc -p tsconfig.json"
   },
-  "files": ["dist.js"],
-  "keywords": ["react", "vanilla", "tilt"],
+  "files": ["dist/index.js"],
+  "keywords": ["react", "vanilla", "tilt", "typescript"],
   "author": "siddharthkp",
   "license": "MIT",
   "dependencies": {
-    "vanilla-tilt": "1.4.1"
+    "vanilla-tilt": "1.7.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   },
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "babel-preset-env": "1.6.1",
-    "babel-preset-react": "6.24.1"
+    "typescript": "4.0.3",
+    "@types/react": "16.9.52",
+    "@types/react-dom": "16.9.8"
   }
 }
